@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gửi công chúa của tôi 💕</title>
+  <title>Gửi đến mẹ yêu 💕</title>
   <style>
 *,
 *::after,
@@ -161,7 +161,7 @@ body {
     <div id="typingLine" class="typing-line"></div>
   </div>
 
-  <div class="watermark">Gửi công chúa của tôi 💕</div>
+  <div class="watermark">Gửi đến mẹ yêu 💕</div>
 
   <audio id="bgAudio" autoplay loop playsinline>
     <source src="VID_20251020_205517_1.mp3" type="audio/mpeg">
@@ -186,11 +186,10 @@ function spawnStar() {
 for (let i = 0; i < 40; i++) { setTimeout(spawnStar, i * 120); }
 setInterval(() => { const n = Math.random() < 0.6 ? 2 : 3; for (let i = 0; i < n; i++) spawnStar(); }, 700);
 const messageLines = [
- "Gửi đến mẹ yêu 💕"
-"Chúc mẹ luôn mạnh khỏe, hạnh phúc"
-"và tỏa sáng như ánh sao ✨"
-"Con yêu mẹ nhiều 💖"
-    
+  "Gửi đến mẹ yêu 💕",
+  "Chúc mẹ luôn mạnh khỏe, hạnh phúc",
+  "và tỏa sáng như ánh sao ✨",
+  "Con yêu mẹ nhiều 💖"
 ];
 const typingEl = document.getElementById('typingLine');
 function typeLines(lines, el, charDelay = 45, lineDelay = 700) {
